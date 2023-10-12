@@ -1,0 +1,15 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace DromParser.Models
+{
+    public class BrandModel
+    {
+        public string Name { get; set; } // Пример: CL
+        public string UrlToSearchByModel { get; set; }
+        public List<ModelGeneration> ModelGenerations { get; set; }
+    }
+}
